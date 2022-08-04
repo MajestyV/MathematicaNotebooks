@@ -1,0 +1,168 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5350,        158]
+NotebookOptionsPosition[      4269,        130]
+NotebookOutlinePosition[      4717,        148]
+CellTagsIndexPosition[      4674,        145]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Graphics3D", "[", 
+  RowBox[{"{", 
+   RowBox[{"Blue", ",", 
+    RowBox[{"Ball", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "0", ",", "0"}], "}"}], ",", "1"}], "]"}]}], "}"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.8686165562926836`*^9, 3.8686165802852335`*^9}, {
+  3.868616650222443*^9, 3.8686166561920805`*^9}, {3.868616769046076*^9, 
+  3.868616780681354*^9}, {3.8686168282666793`*^9, 3.86861683663349*^9}, {
+  3.8686179594798136`*^9, 3.8686179759026213`*^9}},
+ CellLabel->"In[30]:=",ExpressionUUID->"bdc76b35-aebb-44ab-933c-eebd97055dcf"],
+
+Cell[BoxData[
+ Graphics3DBox[
+  {RGBColor[0, 0, 1], 
+   TagBox[SphereBox[{0, 0, 0}, 1],
+    "Ball"]}]], "Output",
+ CellChangeTimes->{{3.8686170870146255`*^9, 3.868617136271433*^9}, {
+  3.8686179660543966`*^9, 3.868618016679931*^9}},
+ CellLabel->"Out[30]=",ExpressionUUID->"845395d8-cce2-438b-959c-7cf00b063f07"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"Graphics3D", "[", 
+     RowBox[{"{", 
+      RowBox[{"Orange", ",", 
+       RowBox[{"Specularity", "[", 
+        RowBox[{"White", ",", "n"}], "]"}], ",", 
+       RowBox[{"Ball", "[", "]"}]}], "}"}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"n", ",", 
+      RowBox[{"{", 
+       RowBox[{"5", ",", "20", ",", "100"}], "}"}]}], "}"}]}], "]"}]}]], \
+"Input",
+ CellChangeTimes->{{3.8686170805369444`*^9, 3.8686170993846035`*^9}},
+ CellLabel->"In[31]:=",ExpressionUUID->"3b582a60-1f6f-440c-b752-88dcda0e522b"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   Graphics3DBox[
+    {RGBColor[1, 0.5, 0], Specularity[
+      GrayLevel[1], 5], 
+     TagBox[SphereBox[{0, 0, 0}],
+      "Ball"]}], ",", 
+   Graphics3DBox[
+    {RGBColor[1, 0.5, 0], Specularity[
+      GrayLevel[1], 20], 
+     TagBox[SphereBox[{0, 0, 0}],
+      "Ball"]}], ",", 
+   Graphics3DBox[
+    {RGBColor[1, 0.5, 0], Specularity[
+      GrayLevel[1], 100], 
+     TagBox[SphereBox[{0, 0, 0}],
+      "Ball"]}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.868617103674695*^9, 3.8686171362967186`*^9}, 
+   3.868617966087715*^9, {3.868617998280804*^9, 3.8686180167157607`*^9}},
+ CellLabel->"Out[31]=",ExpressionUUID->"886e27b6-513c-44ba-8f6b-5c23ae828dce"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.8686171011368847`*^9, 3.868617101138134*^9}},
+ CellLabel->"In[32]:=",ExpressionUUID->"0d7c334a-a4b5-41c6-9a56-64b55722ca84"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics3D", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Blue", ",", 
+     RowBox[{"Specularity", "[", 
+      RowBox[{"White", ",", "50"}], "]"}], ",", 
+     RowBox[{"Ball", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0", ",", "0"}], "}"}], ",", "1"}], "]"}]}], "}"}], 
+   ",", 
+   RowBox[{"Boxed", "->", "False"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8686171226393175`*^9, 3.868617145344674*^9}, {
+  3.868617988136108*^9, 3.8686180139511685`*^9}},
+ CellLabel->"In[33]:=",ExpressionUUID->"e4e2290e-8597-4ba8-8d62-9d3f399348b8"],
+
+Cell[BoxData[
+ Graphics3DBox[
+  {RGBColor[0, 0, 1], Specularity[
+    GrayLevel[1], 50], 
+   TagBox[SphereBox[{0, 0, 0}, 1],
+    "Ball"]},
+  Boxed->False,
+  ImageSize->{356.3527069706173, 365.0113012972535},
+  ImageSizeRaw->Automatic,
+  ViewPoint->{0.8819359319417969, -2.8232587212985556`, 1.6435933817588817`},
+  ViewVertical->{0.06153545615023115, -0.11177519429370883`, 
+   0.9918264432737144}]], "Output",
+ CellChangeTimes->{{3.8686171298824205`*^9, 3.8686171481304817`*^9}, 
+   3.8686179661301928`*^9, {3.8686179983201485`*^9, 3.868618016760384*^9}},
+ CellLabel->"Out[33]=",ExpressionUUID->"6123c5c3-5331-42c2-9af4-39fd8d547c4a"]
+}, Open  ]]
+},
+WindowSize->{569.25, 624.75},
+WindowMargins->{{Automatic, 72}, {48, Automatic}},
+Magnification:>0.7 Inherited,
+FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (2021\:5e7412\:67082\
+\:65e5)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"b0d7f9cf-7f3c-4823-88dd-2ac749d7d0a5"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 589, 13, 30, "Input",ExpressionUUID->"bdc76b35-aebb-44ab-933c-eebd97055dcf"],
+Cell[1172, 37, 311, 7, 285, "Output",ExpressionUUID->"845395d8-cce2-438b-959c-7cf00b063f07"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1520, 49, 602, 16, 44, InheritFromParent,ExpressionUUID->"3b582a60-1f6f-440c-b752-88dcda0e522b"],
+Cell[2125, 67, 694, 20, 139, "Output",ExpressionUUID->"886e27b6-513c-44ba-8f6b-5c23ae828dce"]
+}, Open  ]],
+Cell[2834, 90, 173, 2, 21, InheritFromParent,ExpressionUUID->"0d7c334a-a4b5-41c6-9a56-64b55722ca84"],
+Cell[CellGroupData[{
+Cell[3032, 96, 584, 15, 30, "Input",ExpressionUUID->"e4e2290e-8597-4ba8-8d62-9d3f399348b8"],
+Cell[3619, 113, 634, 14, 267, "Output",ExpressionUUID->"6123c5c3-5331-42c2-9af4-39fd8d547c4a"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
